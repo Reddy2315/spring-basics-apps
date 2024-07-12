@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+	<bean class="com.wipro.beans.College"  name="col">
+	<property name="regNo" value="123456"/>
+	<property name="name" value="CBIT-HYD"/>
+	<property name="Prinipal" value="Ramana rao"/>	
+	</bean>
+</beans>

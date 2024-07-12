@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+
+
+	<!-- <bean class="com.wipro.beans.College" name="colg">
+	<property name="regNo" value="9876"/>
+	<property name="name" value="VIT College"/>
+	<property name="principal" value="VasanthKumar"/>	
+	
+	</bean> -->
+	
+	<bean class="com.wipro.beans.College" name="colg">
+	<constructor-arg name="regNo" value="11223366"/>
+	<constructor-arg name="name" value="CKIT College"/>
+	<constructor-arg name="principal" value="James"/>	
+	</bean>
+
+
+	
+</beans>
